@@ -22,4 +22,12 @@ To combat this, we went back to the initial cultivation of the game, namely simp
 
 ## Creating the Board
 
-## Transferring to Electronics
+The inital prototype was made over the course of 2 weeks with an arduino. It had a small lcd display to show the difficulty and block count. While this worked fine in principle the wiring eneded up a mess and we felt that the display was a bit much for what we needed.
+
+The shell was also thrown together and while it works wonderfully it wasnt fully designed with its use case in mind and didnt have a good way to close the bottom. Additionally the chaotic wiring of the original left little space for a battery box to sit. This necessitated Squakus to be plugged into a computer at all times which detracts from its usability.
+
+## Transferring to Bespoke Parts
+
+In our goal to improve the form and function of Squakus we decided to create custom pcbs. As a test we started with a breakout board for an Arduino Nano. This worked prefectly and made the expeirence or carrying it around a lot easier.
+
+Our next goal is to impliment custom PCBs they have been designed and made already but we are waiting to be back in person to start fully working. this is because of the architectural changes from switching from a development board to just a microcontroller. There are things that we must work out and would be too difficult to attempt remotely.
